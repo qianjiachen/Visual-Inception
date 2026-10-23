@@ -2,11 +2,11 @@
 
 ## 标题
 
-Visual Inception 核心代码发布（ACL 2026）
+Visual Inception 论文正式代码发布（ACL 2026）
 
 ## 简介
 
-我们发布论文 *Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning* 的核心代码。
+我们发布论文 *Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning* 的正式代码版本。
 
 本次开放的组件包括检索与语义损失、真实 LPIPS 的接入接口、L∞ 约束下的单编码器 PGD、基于计划嵌入的 RDS，以及三次相关性评分的多数决策规则。同时提供前向加噪与确定性 DDIM 单步工具，便于检查扩散数值关系。
 
@@ -18,4 +18,4 @@ Visual Inception 核心代码发布（ACL 2026）
 
 ## 简短公告
 
-Visual Inception（ACL 2026）核心代码现已开放，包含单编码器 PGD、损失函数、RDS 与相关性投票规则及扩散数值工具，并附实现约定、测试与运行说明。本版本的具体开放范围见仓库 README。
+Visual Inception（ACL 2026）论文正式代码现已开放，包含单编码器 PGD、损失函数、RDS 与相关性投票规则及扩散数值工具，并附实现约定、测试与运行说明。本版本的具体开放范围见仓库 README。

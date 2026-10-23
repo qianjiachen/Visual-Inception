@@ -1,4 +1,4 @@
-# Release 0.1.0 — Core Code Release
+# Release 0.1.0 — Paper Code Release
 
 本版本开放以下核心组件：
 

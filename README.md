@@ -1,6 +1,6 @@
-# Visual Inception — 核心代码
+# Visual Inception — 论文正式代码
 
-本仓库提供 Visual Inception 的核心代码，包括单编码器损失与有界 PGD、RDS 与三次相关性评分的决策规则，以及前向加噪和确定性 DDIM 单步更新。
+本仓库提供 Visual Inception 论文的正式代码发布版本，包括单编码器损失与有界 PGD、RDS 与三次相关性评分的决策规则，以及前向加噪和确定性 DDIM 单步更新。
 
 Jiachen Qian, *Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning*, ACL 2026：[论文页面](https://aclanthology.org/2026.acl-long.954/)、[PDF](https://aclanthology.org/2026.acl-long.954.pdf)。
 

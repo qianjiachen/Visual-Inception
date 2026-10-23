@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the Visual Inception paper below."
 type: software
-title: "Visual Inception: Core Code Release"
+title: "Visual Inception: Paper Code Release"
 version: 0.1.0
 authors:
   - family-names: Qian
