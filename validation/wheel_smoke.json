@@ -1,20 +1,20 @@
 {
   "status": "passed",
-  "verified_at_utc": "2026-10-23T03:22:30.699395+00:00",
+  "verified_at_utc": "2026-10-23T03:32:49.960777+00:00",
   "python": "3.12.10",
   "platform": "Windows-11-10.0.26300-SP0",
   "torch": "2.11.0+cu130",
   "test_device": "cpu",
   "wheel": {
     "filename": "visual_inception_core-0.1.0-py3-none-any.whl",
-    "sha256": "832fe43d7b6af3e8e35eeffecea00731e79cbe0f40bcb2ff16f6af1c1770a945"
+    "sha256": "440f53a27d45b28bda61f05eed42bf690ff28154256fe83508d4c2f3e90ac6b2"
   },
   "build_dependencies_already_installed": true,
   "build_and_install_no_index_no_deps": true,
   "installed_outside_source_tree": true,
   "import_verified_from_wheel_installation": true,
   "copied_tests_run_against_installed_wheel": true,
-  "pytest_stdout": "......................................................................   [100%]\n70 passed in 6.52s",
+  "pytest_stdout": "......................................................................   [100%]\n70 passed in 2.13s",
   "demo": {
     "scope": "synthetic tensor demonstration; not paper results",
     "pgd_steps": 100,
