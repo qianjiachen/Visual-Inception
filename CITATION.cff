@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the Visual Inception paper below."
+type: software
+title: "Visual Inception: Core Code Release"
+version: 0.1.0
+authors:
+  - family-names: Qian
+    given-names: Jiachen
+license: MIT
+url: "https://aclanthology.org/2026.acl-long.954/"
+preferred-citation:
+  type: conference-paper
+  title: "Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning"
+  authors:
+    - family-names: Qian
+      given-names: Jiachen
+  year: 2026
+  collection-title: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  start: "20846"
+  end: "20862"
+  url: "https://aclanthology.org/2026.acl-long.954/"

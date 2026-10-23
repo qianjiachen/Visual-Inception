@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "synthetic numerical comparisons only",
+  "python": "3.12.10",
+  "torch": "2.11.0+cu130",
+  "source_sha256": {
+    "src/attack/loss.py": "7c180680f6568c9d18cedc11961d31ef52e339293efbecf19e3aa4928cb28f2a",
+    "src/attack/visual_inception.py": "b2e8050b56f43ad53fccacd9ddfe3e9e7783b256cf8abc040c5d77d7fec04cf1",
+    "src/attack/samplers.py": "ab2620e1bdbd394b4c9a2117772c3973cb7b89befaf9eaf1d2d3b3a3df428dda",
+    "src/defense/system1.py": "d6d7c61d3c5a950d4f6c4f1d0aaf2998fbaedd1e384e4a8fdcae6c8ba31ddfbb",
+    "src/defense/system2.py": "95e6c7a48f7788d1bb289ac44acea5c1f0dc85ca7845f62c4416a20caafe05df",
+    "LICENSE": "b19bd474921ab1661a87691d9ee18c1b5cdb1b385377f2272328040045ea3b76"
+  },
+  "source_files_unchanged": true,
+  "reference_materials": {
+    "manuscript": {
+      "filename": "acl_latex.tex",
+      "sha256": "ad60044e2ad6a7bfaea420a2f03e4027879ffe1fce9184a027a1a5f0df8a0256"
+    },
+    "published_paper": {
+      "filename": "published_acl_2026.pdf",
+      "sha256": "f018b74e3b4873af01dd8827e351d6122670b59de8851aabdcb1383b7814844b"
+    }
+  },
+  "comparisons": {
+    "random_loss_and_gradient_cases": 20,
+    "ddim_cases": 60,
+    "max_absolute_error": {
+      "retrieval_value": 0.0,
+      "retrieval_gradient": 0.0,
+      "semantic_value": 0.0,
+      "ddim_previous": 0.0,
+      "ddim_clean": 0.0
+    },
+    "pgd_single_encoder_steps": 100,
+    "pgd_image_exactly_equal": true,
+    "pgd_validation_history_exactly_equal": true,
+    "pgd_linf": 0.0313725471496582,
+    "lpips_interface_only_synthetic_model": true,
+    "rds_and_threshold_boundary": true,
+    "three_vote_median": true
+  },
+  "not_verified": [
+    "real_encoders",
+    "real_LPIPS_weights",
+    "SBERT_weights",
+    "real_judge",
+    "full_diffusion_pipeline",
+    "full_System2",
+    "paper_benchmark_results"
+  ]
+}

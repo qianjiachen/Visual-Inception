@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T02:30:12.145555+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.11.0+cu130",
+  "test_device": "cpu",
+  "wheel": {
+    "filename": "visual_inception_core-0.1.0-py3-none-any.whl",
+    "sha256": "58a14baae4143a215b7e05eed1d9d457f5f6f3a6245a7ada026202d1380dbf17"
+  },
+  "build_dependencies_already_installed": true,
+  "build_and_install_no_index_no_deps": true,
+  "installed_outside_source_tree": true,
+  "import_verified_from_wheel_installation": true,
+  "copied_tests_run_against_installed_wheel": true,
+  "pytest_stdout": "......................................................................   [100%]\n70 passed in 6.51s",
+  "demo": {
+    "scope": "synthetic tensor demonstration; not paper results",
+    "pgd_steps": 100,
+    "initial_loss": 0.35290268063545227,
+    "best_loss": 0.31572937965393066,
+    "linf": 0.0313725471496582,
+    "rds": 1.0,
+    "flagged": true,
+    "ddim_recovered_clean": 0.3999999761581421
+  },
+  "wheel_members": [
+    "visual_inception_core/__init__.py",
+    "visual_inception_core/_validation.py",
+    "visual_inception_core/diffusion.py",
+    "visual_inception_core/losses.py",
+    "visual_inception_core/pgd.py",
+    "visual_inception_core/verification.py",
+    "visual_inception_core-0.1.0.dist-info/licenses/LICENSE",
+    "visual_inception_core-0.1.0.dist-info/METADATA",
+    "visual_inception_core-0.1.0.dist-info/WHEEL",
+    "visual_inception_core-0.1.0.dist-info/top_level.txt",
+    "visual_inception_core-0.1.0.dist-info/RECORD"
+  ],
+  "limits": [
+    "synthetic tensors only",
+    "CPU float32/float64 only tested",
+    "no real models, datasets, API calls, benchmark or latency results"
+  ]
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-inception-core"
+version = "0.1.0"
+description = "Core code release for Visual Inception (ACL 2026)"
+authors = [{name = "Jiachen Qian"}]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.2"]
+
+[project.urls]
+Paper = "https://aclanthology.org/2026.acl-long.954/"
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["visual_inception_core*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

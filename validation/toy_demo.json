@@ -1,0 +1,10 @@
+{
+  "scope": "synthetic tensor demonstration; not paper results",
+  "pgd_steps": 100,
+  "initial_loss": 0.35290268063545227,
+  "best_loss": 0.31572937965393066,
+  "linf": 0.0313725471496582,
+  "rds": 1.0,
+  "flagged": true,
+  "ddim_recovered_clean": 0.3999999761581421
+}
